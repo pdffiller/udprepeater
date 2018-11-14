@@ -1,0 +1,19 @@
+# debug mode 0 - error only, 1 - debug, 2 - do not advise
+debug = 1
+
+# bind addres for UDP proxy server
+# shoul be IP
+bindaddr = 0.0.0.0
+
+# bind port for UDP proxy server
+bindport = 30000
+
+# destination server addres should be NS records type SRV or A
+serviceaddr = pinba.example.com
+
+# destination port.
+# used only for NS record type A. If type SRV port used from NS records
+serviceport = 30002
+
+# maximum time in seconds between resolving DNS records
+maxttl = 60

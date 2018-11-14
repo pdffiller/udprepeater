@@ -1,0 +1,18 @@
+# debug mode 0 - error only, 1 - debug, 2 - do not advise
+debug = UDP_REPEATER_DEBUG_LEVEL
+
+# bind addres for UDP proxy server
+bindaddr = UDP_REPEATER_BIND_ADDR
+
+# bind port for UDP proxy server
+bindport = UDP_REPEATER_BIND_PORT
+
+# destination server addres should be NS records type SRV or A
+serviceaddr = UDP_REPEATER_DESTINATION_SERVER
+
+# destination port.
+# used only for NS record type A. If type SRV port used from NS records
+serviceport = UDP_REPEATER_DESTINATION_PORT
+
+# maximum time in seconds between resolving DNS records
+maxttl = UDP_REPEATER_MAX_TTL
