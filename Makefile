@@ -1,7 +1,7 @@
 TARGET = udprepeater
 LIBS = -lresolv -lkunf -L ./lib
 CC = gcc
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall -no-pie
 
 .PHONY: default all clean
 
